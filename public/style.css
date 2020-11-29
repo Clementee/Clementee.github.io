@@ -17,6 +17,7 @@ ul {
 a{
     text-decoration: none;
 }
+
 #main{
     width: 100%;
     height: 100vh;
@@ -112,52 +113,106 @@ nav ul li a:hover{
     transition: all ease 0.2s;
 }
 
-#about{
+#resume{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width:100%;
+    margin:auto auto auto auto;
+    border-bottom-color: black;
+    background-color: black;
+    height: 180vh;
+}
+.resume-text{
+    width: 600px;
+    position: center;
+}
+.resume-heading h2 {
+    color:darkorange;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 3rem;
+    position: center;
+    text-align: center;
+}
+.resume-heading span {
+    color: coral;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    position: center;
+    text-align-all: center;
+}
+
+.r-box-text strong{
+    color: coral;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.r-box-text p{
+    color:antiquewhite;
+    font-size: 0.9rem;
+}
+.r-box-container{
+    margin-top: 30px;
+}
+.resume-box{
+    display: flex;
+    margin: 25px 0;
+}
+
+#skills{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width:100%;
-    margin:auto auto 50px auto;
+    margin:auto auto auto auto;
+    border-bottom-color: black;
     background-color: black;
+    height: 125vh;
 }
-.about-text{
+.skills-text{
     width:600px;
     margin-left: 50px;
 }
-.about-img{
+.skills-img{
     width:600px;
     height: 600px;
 }
-.about-img img{
+.skills-img img{
     width:100%;
     height: 100%;
     object-fit: contain;
 }
-.about-heading span{
+.skills-heading span{
     color:darkorange;
     font-weight: 500;
     text-transform: none;
     letter-spacing: 1px;
     font-size: 1rem;
 }
-.about-heading h2{
+.skills-heading h2{
     color: coral;
     font-size: 3.3rem;
     margin:0;
     font-weight: 400;
     letter-spacing: 1px;
 }
-.a-box-container{
+.s-box-container{
     margin-top: 30px;
 }
-.about-box{
+.skills-box{
     display: flex;
     margin: 25px 0;
 }
-.a-box-icon{
+.s-box-icon{
     margin-right:12px;
 }
-.a-box-icon i{
+.s-box-icon i{
     width:40px;
     height: 40px;
     border-radius: 50%;
@@ -166,14 +221,15 @@ nav ul li a:hover{
     align-items: center;
     background-color: lightcoral;
     font-size: 1.1rem;
+    z-index: 0;
 }
-.a-box-text strong{
+.s-box-text strong{
     color: coral;
-    margin: 0;
     font-size: 0.9rem;
     font-weight: 600;
+    margin: 0;
 }
-.a-box-text p{
+.s-box-text p{
     color:antiquewhite;
     font-size: 0.9rem;
 }
@@ -185,4 +241,81 @@ nav ul li a:hover{
 }
 .fa-js-square{
     color:#f98231;
+}
+.sk-box-text strong{
+    color: coral;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+#about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    margin:auto auto auto auto;
+    border-bottom-color: black;
+    background-color: black;
+    height: 125vh;
+}
+.about-text{
+    width:100%;
+    margin-left: 50px;
+    text-align-all: left;
+}
+.about-heading h2{
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.ab-box-container{
+    margin-top: 0;
+}
+.about-box{
+    display: flex;
+    margin: 0 0;
+}
+
+.ab-box-text strong{
+    color: coral;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ab-box-text p{
+    color:antiquewhite;
+    font-size: 0.9rem;
+}
+
+.ab-box-text strong{
+    color: coral;
+    font-size: 0.9rem;
+    margin-left: 50px;
+}
+p{
+    font-size: 0.9rem;
+    width:100%;
+    margin: 0;
+    text-align-all: left;
+}
+.purple-text {
+    color: purple;
+    font-size: 0.9rem;
+}
+.yellow-text {
+    color: #eeb02f;
+    font-size: 0.9rem;
+}
+.white-text {
+    color: white;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+.blue-text {
+    color: #2347a5;
+    font-size: 0.9rem;
 }
