@@ -1,2 +1,2 @@
 # Clementee.github.io
-Website made from scratch using Vue, JS and HTML
+Website made from scratch using CSS and HTML
