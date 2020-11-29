@@ -257,7 +257,7 @@ nav ul li a:hover{
     margin:auto auto auto auto;
     border-bottom-color: black;
     background-color: black;
-    height: 125vh;
+    height: 140vh;
 }
 .about-text{
     width:100%;
@@ -270,6 +270,8 @@ nav ul li a:hover{
     font-weight: 400;
     letter-spacing: 1px;
     margin: 0;
+    position: center;
+    text-align: center;
 }
 .ab-box-container{
     margin-top: 0;
@@ -297,7 +299,6 @@ nav ul li a:hover{
     margin-left: 50px;
 }
 p{
-    font-size: 0.9rem;
     width:100%;
     margin: 0;
     text-align-all: left;
@@ -311,11 +312,11 @@ p{
     font-size: 0.9rem;
 }
 .white-text {
-    color: white;
+    color: mediumseagreen;
     font-size: 0.9rem;
     letter-spacing: 3px;
 }
 .blue-text {
-    color: #2347a5;
-    font-size: 0.9rem;
+    color: mediumseagreen;
+    font-size: 1.3rem;
 }
