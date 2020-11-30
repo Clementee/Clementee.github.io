@@ -97,6 +97,9 @@ nav ul li a:hover{
 .main-text p{
     color: lightgray;
 }
+.main-text a{
+    color: white;
+}
 .portfolio-btn{
     width:300px;
     height: 44px;
@@ -368,5 +371,5 @@ p{
     color: black;
 }
 .social>a:hover>i{
-    transform: rotate(15deg) scale(1.2);
+    transform: rotate(15deg) scale(1.1);
 }
