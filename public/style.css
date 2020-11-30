@@ -255,22 +255,20 @@ nav ul li a:hover{
     align-items: center;
     width:100%;
     margin:auto auto auto auto;
-    border-bottom-color: black;
     background-color: black;
-    height: 140vh;
+    height: 170vh;
 }
 .about-text{
     width:100%;
-    margin-left: 50px;
+    margin-left: 60px;
     text-align-all: left;
 }
 .about-heading h2{
-    color: white;
+    color: lightgreen;
     font-size: 3.3rem;
     font-weight: 400;
     letter-spacing: 1px;
-    margin: 0;
-    position: center;
+    margin: 0 0 0 300px;
     text-align: center;
 }
 .ab-box-container{
@@ -278,7 +276,7 @@ nav ul li a:hover{
 }
 .about-box{
     display: flex;
-    margin: 0 0;
+    margin: 0;
 }
 
 .ab-box-text strong{
@@ -319,4 +317,56 @@ p{
 .blue-text {
     color: mediumseagreen;
     font-size: 1.3rem;
+}
+.about-img{
+    width: 1000px;
+    height: 1000px;
+}
+.about-img img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+#foot{
+    width: 100%;
+    height: 50vh;
+    position:relative;
+    background-color: black;
+    color: white;
+    font-family: "Roboto Thin", sans-serif;
+}
+.social{
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.social>a{
+    display: inline-flex ;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 15px;
+    margin: 0 50px;
+    font-size: 25pt;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+.social>a>i{
+    transition: 0.8s;
+}
+.social>a:hover{
+    transform: scale(1.1);
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.social>a:hover>i{
+    transform: rotate(15deg) scale(1.2);
 }
