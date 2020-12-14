@@ -9,5 +9,5 @@ https://clementee.github.io/
 
 # What remains to do ?
 
-Buttons 
-Part of projects
+Buttons
+Projects page
