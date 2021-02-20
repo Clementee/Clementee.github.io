@@ -9,7 +9,7 @@ https://clementee.github.io/
 
 # What remains to do ?
 
-Buttons
+Buttons /n
 Projects page
 Modify the design to a more advanced one
 Change the CVs 
